@@ -11,7 +11,7 @@ class TopicToolView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.schowalter.value
+          () => controller.ziemann.value
               ? const CircularProgressIndicator(color: Colors.green)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class TopicToolView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.oipvnma();
+              controller.mzpk();
             },
             icon: const Icon(
               Icons.restart_alt,
